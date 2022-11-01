@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # buster version number
-version=1.5-1+3.11
+version=1.5-1+6.6
 # bullseye version number
-version2=1.5-1+3.5
+version2=1.5-1+6.3
 # ubuntu focal version number
-version3=1.5-1+3.1
+version3=1.5-1+6.1
 
 if [[ $(get_codename) == "buster" ]]; then
   use_version="$version"
